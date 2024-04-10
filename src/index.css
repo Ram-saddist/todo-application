@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ui.basic.blue.button{
+    background-color: white !important;
+}
+
+.ui.basic.blue.button:hover{
+    cursor: pointer !important;
+}

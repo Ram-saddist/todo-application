@@ -1,0 +1,54 @@
+{
+  "name": "mern-todo-list",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.21.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.15.3",
+    "express-session": "^1.15.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.8.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^5.1.2",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "node server/server.js",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "engines": {
+    "node": ">= 12.14.1",
+    "npm": ">= 6.13.4",
+    "yarn": "^1.21.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
